@@ -1,0 +1,15 @@
+.env
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Not used by our schema (59MB, would bloat the repo for nothing) --
+# everything else in raw/ IS committed so the app can rebuild olist.db
+# automatically on a fresh deploy (see build_db.ensure_db()).
+Brazilian E-Commerce Dataset/olist_geolocation_dataset.csv
+
+# The built DB itself isn't committed -- it's rebuilt from raw/ CSVs on
+# first run instead (see pipeline.py's ensure_db() call). Keeps the repo
+# small and avoids GitHub's 100MB file-size limit (olist.db is 115MB).
+olist.db
