@@ -2,7 +2,7 @@
 
 Ask questions about a real e-commerce dataset in plain English. The app generates SQL, validates and safely executes it, and shows you both the query and the results — as a stat card, table, or chart depending on what fits.
 
-**Live demo:** _add your Streamlit Community Cloud link here after deploying_
+**Live demo:** [https://text-to-sql-analyst-agent-o3cxq5halek7pwqjjexvm5.streamlit.app/](https://text-to-sql-analyst-agent-o3cxq5halek7pwqjjexvm5.streamlit.app/) — _note: free-tier hosting sleeps after inactivity, so the first load may take 30-60s to wake up_
 
 ---
 
